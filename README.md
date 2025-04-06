@@ -19,10 +19,7 @@ This project trains a basic two-layer neural network to recognize digits using g
 - Python 3.x
 - Libraries: `numpy`, `pandas`, `sklearn`
 
-Install them with:
-```bash
-pip install numpy pandas scikit-learn
-```
+
 ## How It Works
 
 ### Data Preparation
@@ -48,8 +45,6 @@ pip install numpy pandas scikit-learn
 - `get_predictions()`: Picks the most likely digit.
 - `calculate_accuracy()`: Measures prediction accuracy.
 - `gradient_descent()`: Runs the training loop.
-
-
 
 ## Results
 After 500 iterations, the model typically achieves ~85-90% accuracy on the training set, and around ~88% on the test set.
