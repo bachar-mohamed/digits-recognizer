@@ -49,13 +49,7 @@ pip install numpy pandas scikit-learn
 - `calculate_accuracy()`: Measures prediction accuracy.
 - `gradient_descent()`: Runs the training loop.
 
-## Usage
-1. Download `mnist_train.csv` (e.g., from Kaggle) and place it in the project folder.
-2. Save the code as `digit_classifier.py`.
-3. Run the script:
-   ```bash
-   python digit_classifier.py
-   ```
+
 
 ## Results
 After 500 iterations, the model typically achieves ~85-90% accuracy on the training set, and around ~88% on the test set.
